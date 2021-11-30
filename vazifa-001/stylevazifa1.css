@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navigation_bar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.logo{
+    padding-top: 25px;
+    padding-left: 180px;
+    flex: 1;
+    
+    
+ 
+}
+.buy{
+    border-radius: 15px;
+    background-color: rgb(70, 163, 163);
+    border: 0.5px solid transparent;
+    width: 120px;
+    height: 25px;
+    
+    
+}
+.buynow{
+    color: #fff;
+}
+.free{
+    border-radius: 15px;
+    background-color: transparent;
+    border: 1px solid black;
+    width: 90px;
+    height: 25px;
+
+}
+.button{
+    /* margin-left: 1000px; */
+   /* margin-top: -20px; */
+   word-spacing: 20px;
+   /* flex: 1; */
+   margin-top: 35px;
+   margin-right: 100px;
+}
+.bar{
+    display: flex;
+    list-style-type: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    flex: 1;
+    /* margin-top: -20px; */
+    margin-top: 40px;
+    word-spacing: 30px;
+    
+       
+}
+.li1{
+    margin-right: 30px;
+}
+.imeg{
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url(https://wallpapercave.com/wp/wp6705749.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.with{
+    color: cornsilk;
+    font-size: 60px;
+    text-shadow: 0px 0px 15px gray;
+    margin-left: -65px;
+}
+.comes{
+    margin-left: -110px;
+}
+.make{
+    margin-top: 180px;
+    margin-left: -540px;
+    color: honeydew;
+    text-shadow: 0px 0px 10px gray;
+}
+.button10{
+margin-top: 260px;
+margin-left: -395px;
+padding-top: 10px
+}
+.learn{
+    border-radius: 15px;
+    border: 1px solid honeydew;
+    background-color:  transparent;
+    width: 120px;
+    height: 30px;
+}
+.get{
+    border: 1px solid transparent;
+    background-color: rgb(70, 163, 163);
+    border-radius: 15px;
+    width: 120px;
+    height: 30px;
+    margin-left: 10px;
+}
+.b{
+    color: honeydew;
+}

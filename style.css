@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    width: 800px;
+    height: 400px;
+    background-color: red;
+    display: flex; /* ichidagi elementlarni yonma yon qilish */ /* flex-end va flex-start tagiga va yuqoriga joylaydi */
+    align-items: center; /*ichidagi elementlarni vertical o'rtaga olib kelish display: flex; ishlatilishi kerak*/
+     justify-content: space-evenly; /*ichidagi elementlarni gorizontal o'rtaga olib kelish display: flex; ishlatilishi kerak*/                                                                                                                                                       
+    /* space-between bu 1-elementni va oxirgi elementni ikki chetga surib yopiwtiradi va qolganlarini oralig'i bir xilda qo'yadi */
+    /* space-evenly bu elementlarni orasini bir xilda ochib beradi */
+    /* space-around bu elementlarga har biriga bir xil margin beradi */
+}
+
+.child{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    /*margin: 0px 30px;*/
+}
+.parent_flex{
+    width: 100%;
+    height: 200px;
+    background-color: gray;
+    display: flex;
+}
+.flex_item{
+    flex: 1; /* flex 1  bu elementga xohlagancha joy berish uchun ishlatiladi  */
+    background-color: green;
+    /* flex 1 ni ishlatilishi uchun ota elementga display flex berish shart */
+}
+.parent_direction{
+    width: 800px;
+    height: 800px;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+     flex-direction: column-reverse;
+    align-items: center;
+    /* flex-direction: column; bo'lganda align-items va justify content teskari ishlaydi */
+    /* reverse so'z bu ichidagi elementlarni teskari tartibda joylashtiradi */
+}
+.direction_item{
+    width: 250px;
+    height: 250px;
+    background-color: firebrick;
+    margin: 20px 0px;
+}
+.flex_height{
+    width: 100;
+    height: 100px;
+    display: flex;
+     align-items: center;
+    background-color: fuchsia;
+}
+.height_btn{
+    /* button kengaytirishni 1-usuli */
+    /* width: 150px;
+    height: 50px; */
+    /* button kengaytirishni 2-usuli */
+    /* padding: 20px 40px; */
+    /* button kengaytirishni 3-usuli */
+    /* min-width: 150px;
+    min-height: 50px; */
+    /* max-height: 30px; */
+    /* maximum =max=>max-height eng yuqori balandlik hisoblanadi */
+}
